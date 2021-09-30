@@ -3,7 +3,7 @@
 FROM alpine
 
 LABEL org.opencontainers.image.source https://github.com/mfabian-na-at/psweb
-LABEL maintainer="mfabia@na-at.com.mx"
+LABEL maintainer="mfabian@na-at.com.mx"
 
 # Install Node and NPM
 RUN apk add --update nodejs npm curl

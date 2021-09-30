@@ -50,7 +50,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/psweb_mfab:lastest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/mfab:1.1.0
       
       #Digest
       - name: Image digest

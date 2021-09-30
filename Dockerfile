@@ -2,7 +2,7 @@
 # Linux x64
 FROM alpine
 
-LABEL org.opencontainers.image.source https://github.com/mfabian-na-at/psweb
+LABEL org.opencontainers.image.source https://github.com/mfabian-na-at/mfab
 LABEL maintainer="mfabian@na-at.com.mx"
 
 # Install Node and NPM

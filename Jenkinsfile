@@ -7,5 +7,13 @@ pipeline {
       }
     }
 
+    stage('Buzz Test') {
+      agent any
+      steps {
+        echo 'Buzz Test'
+        echo 'Buzz test 2'
+      }
+    }
+
   }
 }
